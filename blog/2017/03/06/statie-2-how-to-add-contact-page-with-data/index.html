@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Statie 2: How add Contact Page With Data | Tomáš Votruba</title>
+        <meta charset="utf-8">
+        <meta name="robots" content="index, follow">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Statie 2: How add Contact Page With Data">
+    <meta property="og:description" content="In first post about Statie you generated simple index with layout. Today we look on first semi-dynamic feature: data structures.">
+    <meta property="og:url" content="https://www.tomasvotruba.cz/blog/2017/03/06/statie-2-how-to-add-contact-page-with-data">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Statie 2: How add Contact Page With Data">
+    <meta name="twitter:description" content="In first post about Statie you generated simple index with layout. Today we look on first semi-dynamic feature: data structures.">
+
+        <link rel="alternate" type="application/rss+xml" title="Tomáš Votruba Blog RSS" href="/rss.xml">
+
+        <link href="/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <link href="/assets/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
+
+    <link href="/assets/prism/prism.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+<nav>
+    <div class="container">
+        <ul class="hidden-xs">
+            <li class="logo">
+                <a href="/">Tomáš Votruba</a>
+            </li>
+            <li>
+                <a href="/skoleni/">Školím a mentoruji</a>
+            </li>
+            <li>
+                <a href="/reference/">Spokojení klienti</a>
+            </li>
+            <li class="active">
+                <a href="/blog/">Blog</a>
+            </li>
+            <li>
+                <a href="/cenik/">Ceník</a>
+            </li>
+            <li>
+                <a href="/kontakt/">Kontakt</a>
+            </li>
+        </ul>
+
+        <div id="mobile-menu" class="row text-center hidden-md hidden-sm hidden-lg">
+            <a href="/" class="col-xs-3">
+                <em class="fa fa-home"></em>
+                <br>
+                Začni
+            </a>
+            <a href="/skoleni/" class="col-xs-3">
+                <em class="fa fa-thumbs-up"></em>
+                <br>
+                Školím
+            </a>
+            <a href="/blog/" class="col-xs-3 active">
+                <em class="fa fa-book"></em>
+                <br>
+                Píšu blog
+            </a>
+            <a href="/kontakt/" class="col-xs-3">
+                <em class="fa fa-phone"></em>
+                <br>
+                Kontakt
+            </a>
+        </div>
+    </div>
+</nav>
+
+        <div class="mainContent">
+    <div class="container" id="post">
+        <h1>Statie 2: How add Contact Page With Data</h1>
+
+<ul class="list-inline">
+    <li>
+        <em class="fa fa-clock-o fa-fw"></em>
+        <strong>5 min</strong>
+    </li>
+
+    <li>
+        <em class="fa fa-calendar fa-fw"></em>
+        <time datetime="2017-03-Mon">
+                6. 3.
+        </time>
+    </li>
+
+    <li>
+        <em class="fa fa-fw fa-comments"></em>
+        <a href="https://www.tomasvotruba.cz/blog/2017/03/06/statie-2-how-to-add-contact-page-with-data/#disqus_thread">X</a>
+        comments
+    </li>
+
+    <li>
+        <em class="fa fa-fw fa-pencil"></em>
+
+        <a href="https://github.com/TomasVotruba/tomasvotruba.cz/edit/master/source/_posts/2017/2017-03-06-statie-2-how-to-add-contact-page-with-data.md">
+            Edit this Post
+        </a>
+    </li>
+</ul>
+
+
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <a href="/blog/2017/02/20/statie-how-to-run-it-locally">In first post about Statie</a> you generated simple index with layout. Today we look on first semi-dynamic feature: <strong>data structures</strong>.
+            </div>
+        </div>
+
+        
+
+<h2 id="contact-page-with-socials-accounts-data-separated"><a class="anchor" href="#contact-page-with-socials-accounts-data-separated" aria-hidden="true"><span class="anchor-icon">#</span></a>Contact Page with Socials Accounts Data Separated</h2>
+<p>First, <strong>create a file</strong> in the <code>/source</code> directory called <code>contact.latte</code>.</p>
+<p>The file name is relevant to the url - this file will be accessible at <code>/contact</code>.</p>
+<pre><code class="language-html">&lt;!-- source/contact.latte --&gt;
+
+❴layout "default"❵
+
+❴block content❵
+    &lt;h1&gt;First Hour is on me - Call me now!&lt;/h1&gt;
+
+    &lt;ul&gt;
+        &lt;li&gt;Phone: &lt;a href="tel:123456789"&gt;123 456 789&lt;/a&gt;a&gt;&lt;/li&gt;
+        &lt;li&gt;Email: &lt;a href="mailto:hi@gmail.com"&gt;hi@gmail.com&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;Twitter: &lt;a href="https://twitter.com/wise-programmer"&gt;@wiseProgrammer&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;Facebook: &lt;a href="https://facebook.com/wise-programmer"&gt;Wise Programmer&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;LinkedIn: &lt;a href="https://linkedin.com/wise-programmer"&gt;Wise Programmer&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;Github: &lt;a href="https://github.com/wise-programmer"&gt;@WiseProgrammer&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+❴/block❵</code></pre>
+<p><br></p>
+<p>If you use <a href="/blog/2017/02/20/statie-how-to-run-it-locally#minitip-use-gulp-work-for-you">smart Gulp script</a>, you can already check the page at <a href="http://localhost:8000/contact">localhost:8000/contact</a>.</p>
+<div class="text-center">
+    <img src="/../../../../assets/images/posts/2017/statie-2/statie-contact.png" class="thumbnail"></div>
+<h2 id="how-to-decouple-information-to-data-structures"><a class="anchor" href="#how-to-decouple-information-to-data-structures" aria-hidden="true"><span class="anchor-icon">#</span></a>How to decouple Information to Data Structures</h2>
+<p>We are programmers and we don't like data coupled to the code. You wouldn't put your repository class to your <code>Homepage.latte</code> template, would you?</p>
+<p>What if...</p>
+<ul>
+<li>we want to <strong>add new contact</strong>,</li>
+<li><strong>change it</strong></li>
+<li>or <strong>use in multiple parts</strong> of website.</li>
+</ul>
+<p>There are 2 basic ways to data structures. It depends, whether you need it locally or globally.</p>
+<p>In both cases, we modify the template the same way:</p>
+<pre><code class="language-html">&lt;!-- source/contact.latte --&gt;
+
+❴layout "default"❵
+
+❴block content❵
+    &lt;h1&gt;First Hour is on me - Call me now!&lt;/h1&gt;
+
+    &lt;ul&gt;
+        ❴foreach $contactMethods as $contactMethod❵
+            &lt;li&gt;
+                ❴$contactMethod['type']❵:
+                &lt;a href="❴$contactMethod['link']❵"&gt;❴$contactMethod['name']❵&lt;/a&gt;
+            &lt;/li&gt;
+        ❴/foreach}
+
+        &lt;!-- or shorter --&gt;
+        &lt;!-- &lt;li n:foreach="$contactMethods as $contactMethod"&gt; --&gt;
+    &lt;/ul&gt;
+❴/block❵</code></pre>
+<h2 id="1-local-values-in-between-code-code"><a class="anchor" href="#1-local-values-in-between-code-code" aria-hidden="true"><span class="anchor-icon">#</span></a>1. Local Values in between <code>---</code></h2>
+<h3 id="how-does-it-work"><a class="anchor" href="#how-does-it-work" aria-hidden="true"><span class="anchor-icon">#</span></a>How Does it Work?</h3>
+<p>Everything located between two &quot;triple-hyphens&quot; (<code>---</code>) will be accessible <strong>only in the one template as variables</strong>.</p>
+<p>In <em>code words</em>:</p>
+<pre><code class="language-html">---
+key: "value"
+---
+
+❴$key❵ &lt;!-- shows "value" --&gt;</code></pre>
+<h3 id="how-to-use-it"><a class="anchor" href="#how-to-use-it" aria-hidden="true"><span class="anchor-icon">#</span></a>How to Use it?</h3>
+<p>All we need for our contact page is simple array. Putting data above to an array in PHP would look like this:</p>
+<pre><code class="language-php">$contactMethods = [
+    [
+        'type' =&gt; 'Phone',
+        'link' =&gt; 'tel:123456789',
+        'name' =&gt; '123 456 789'
+    ], [
+        'type' =&gt; 'Email',
+        'link' =&gt; 'mailto:hi@gmail.com',
+        'name' =&gt; 'hi@gmail.com'
+    ], [
+        'type' =&gt; 'Twitter',
+        'link' =&gt; 'https://twitter.com/wise-programmer',
+        'name' =&gt; '@wiseProgrammer'
+    ], [
+        'type' =&gt; 'Facebook',
+        'link' =&gt; 'https://facebook.com/wise-programmer',
+        'name' =&gt; 'Wise Programmer'
+    ], [
+        'type' =&gt; 'LinkedIn',
+        'link' =&gt; 'https://linkedin.com/wise-programmer',
+        'name' =&gt; 'Wise Programmer'
+    ], [
+        'type' =&gt; 'Github',
+        'link' =&gt; 'https://github.com/wise-programmer',
+        'name' =&gt; '@WiseProgrammer'
+    ]
+];</code></pre>
+<p>Now we put this data to <a href="https://ne-on.org">NEON format</a> and place them to our <code>contact.latte</code>.</p>
+<pre><code class="language-yaml">&lt;!-- source/contact.latte --&gt;
+
+---
+contactMethods:
+    -
+        type: Phone
+        link: tel:123456789
+        name: 123 456 789
+    -
+        type: Email
+        link: mailto:hi@gmail.com
+        name: hi@gmail.com
+    -
+        type: Twitter
+        link: https://twitter.com/wise-programmer
+        name: @wiseProgrammer
+    -
+        type: Facebook
+        link: https://facebook.com/wise-programmer
+        name: Wise Programmer
+    -
+        type: LinkedIn
+        link: https://linkedin.com/wise-programmer
+        name: Wise Programmer
+    -
+        type: Github
+        link: https://github.com/wise-programmer
+        name: @WiseProgrammer
+---
+❴layout "default"❵
+
+❴block content❵
+    &lt;h1&gt;First Hour is on me - Call me now!&lt;/h1&gt;
+
+    &lt;ul&gt;
+        ❴foreach $contactMethods as $contactMethod❵
+            &lt;li&gt;
+                ❴$contactMethod['type']❵:
+                &lt;a href="❴$contactMethod['link']❵"&gt;❴$contactMethod['name']❵&lt;/a&gt;
+            &lt;/li&gt;
+        ❴/foreach}
+    &lt;/ul&gt;
+❴/block❵</code></pre>
+<p>Save file and <a href="http://localhost:8000/contact">look on the contact page</a>.</p>
+<div class="text-center">
+    <img src="/../../../../assets/images/posts/2017/statie-2/statie-contact.png" class="thumbnail"></div>
+<h2 id="2-global-or-bigger-amount-of-data"><a class="anchor" href="#2-global-or-bigger-amount-of-data" aria-hidden="true"><span class="anchor-icon">#</span></a>2. Global or Bigger Amount of Data</h2>
+<p>I use this option in 2 cases:</p>
+<ul>
+<li><strong>I need those data globally</strong> (e.g. Google Analytics Code)</li>
+<li><strong>those data are 5+ lines big and they make template less readable</strong></li>
+</ul>
+<p>I would use this option in this case.</p>
+<h3 id="how-does-it-work"><a class="anchor" href="#how-does-it-work" aria-hidden="true"><span class="anchor-icon">#</span></a>How does it Work?</h3>
+<p>Statie <strong>scans the <code>/source</code> directory for all <code>.neon</code> files</strong>. All <strong>data stored in them are added as variables</strong> to every template.</p>
+<p>As convention, I put global configuration to <code>/source/_config</code> directory and data <code>/source/_data</code> directory. But it's up to you, where you put it.</p>
+<h3 id="how-to-use-it"><a class="anchor" href="#how-to-use-it" aria-hidden="true"><span class="anchor-icon">#</span></a>How to Use it?</h3>
+<p>We simple move whole <code>contactMethods</code> to this file:</p>
+<pre><code class="language-yaml"># /source/_data/contacts.neon
+contactMethods:
+    ...</code></pre>
+<p>And that's it!</p>
+<p>Save file, <a href="http://localhost:8000/contact">look on the contact page</a> and it still works!</p>
+<div class="text-center">
+    <img src="/../../../../assets/images/posts/2017/statie-2/statie-contact.png" class="thumbnail"></div>
+<h2 id="now-you-know"><a class="anchor" href="#now-you-know" aria-hidden="true"><span class="anchor-icon">#</span></a>Now You Know</h2>
+<ul>
+<li>How to add data to your Statie page.</li>
+<li><strong>Where to put them for local and global access</strong>.</li>
+<li><strong>That it's convention</strong> to use <code>/source/_data/&lt;some-data&gt;.neon</code> naming.</li>
+</ul>
+<p>Happy coding!</p>
+
+        <h2>I care about your opinion</h2>
+
+<div id="disqus_thread"></div>
+
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.language = "en"
+    };
+
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//' + "itsworthsharing" + '.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+    </div>
+        </div>
+
+    <script src="/assets/prism/prism.js"></script>
+    <script id="dsq-count-scr" src="https://itsworthsharing.disqus.com/count.js" async defer></script>
+
+<script>
+    ga=function(){ ga.q.push(arguments) };
+    ga.q=[];
+    ga.l=+new Date;
+    ga('create', "UA-46082345-1", 'auto');
+    ga('send','pageview');
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+<script>
+    !function(f,b,e,v,n,t,s){ if(f.fbq)return;n=f.fbq=function(){ n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', "201338863559186");
+    fbq('track', 'PageView');
+</script>
+    </body>
+</html>

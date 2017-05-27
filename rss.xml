@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+>
+    <channel>
+        <title>Tomas Votruba writes about PHP and education</title>
+        <link>https://www.tomasvotruba.cz/blog/</link>
+        <description>PHP, Communities and Communication posts by Tomas Votruba</description>
+        <pubDate>Sat, 27 May 2017 17:49:22 +0000</pubDate>
+        <atom:link href="https://www.tomasvotruba.cz/rss.xml" rel="self" type="application/rss+xml"></atom:link>
+
+                <lastBuildDate>Sun, 07 May 2017 00:00:00 +0000</lastBuildDate>
+
+
+            <item>
+                <title><![CDATA[ How to refactor to new Dependency Injection features in Symfony 3.3 ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/05/07/how-to-refactor-to-new-dependency-injection-features-in-symfony-3-3/</link>
+                <description><![CDATA[ This May will be released Symfony 3.3 with many DependencyInjection improvements.
+Each of them is quite nice, but combined together - they are huge jump compare to what we have now.
+
+Today I will show you what code can you drop and how to migrate it. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/05/07/how-to-refactor-to-new-dependency-injection-features-in-symfony-3-3/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/05/07/how-to-refactor-to-new-dependency-injection-features-in-symfony-3-3#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ Combine power of PHP_CodeSniffer and PHP-CS-Fixer in 3 lines ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/05/03/combine-power-of-php-code-sniffer-and-php-cs-fixer-in-3-lines/</link>
+                <description><![CDATA[ PHP_CodeSniffer has over 3 400 stars on Github and 210 default sniffs,
+PHP-CS-Fixer with 4 423 stars brings you 142 fixers.
+
+Both powerful tools dealing with coding standards with huge communities behind them.
+Can you imagine using them both and actually enjoy it? Today I will show you how. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/05/03/combine-power-of-php-code-sniffer-and-php-cs-fixer-in-3-lines/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Wed, 03 May 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/05/03/combine-power-of-php-code-sniffer-and-php-cs-fixer-in-3-lines#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ 3 Symfony and Laravel Patterns that Make Code Easy to Extend Without Modification ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/04/14/3-symfony-and-laravel-patterns-that-make-code-easy-to-extends-without-modification/</link>
+                <description><![CDATA[ Do you write open-source? If so, you probably get many PR and issues about adding new feature, that people miss.
+You can add them and increase project complexity or deny them and increase people&#039;s frustration. Both sucks for somebody. I prefer win-win situations: keep complexity low and add new features.
+
+Magic? No, just patterns! Today we look on 3 of them I found and fond in Symfony and Laravel world. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/04/14/3-symfony-and-laravel-patterns-that-make-code-easy-to-extends-without-modification/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/04/14/3-symfony-and-laravel-patterns-that-make-code-easy-to-extends-without-modification#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ Why Is Doctrine Dying ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/03/27/why-is-doctrine-dying/</link>
+                <description><![CDATA[ Do you use Doctrine ORM? If so, do you follow its evolution on Github? Symfony is evolving, Laravel is evolving, Nette is evolving, world is evolving... Doctrine not. Today I will show you 3 reasons why. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/03/27/why-is-doctrine-dying/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Mon, 27 Mar 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/03/27/why-is-doctrine-dying#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ Statie 4: How to Create The Simplest Blog ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/03/13/statie-4-how-to-create-the-simplest-blog/</link>
+                <description><![CDATA[ Statie is very powerful tool for creating small sites. But you will use just small part of it&#039;s features, having just micro-sites. How to get to full 100%? Build a blog.
+    
+    Today I will show you, how to put your first post. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/03/13/statie-4-how-to-create-the-simplest-blog/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/03/13/statie-4-how-to-create-the-simplest-blog#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ Statie 3: How to Add Reusable Parts of Code ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/03/09/statie-3-how-to-add-reusable-parts-of-code/</link>
+                <description><![CDATA[ You already know how to run Statie with layout and how to add data structures.
+
+Today I will show you: how to use decouple big templates to smaller and reusable snippets. Like Google Analytics code. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/03/09/statie-3-how-to-add-reusable-parts-of-code/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/03/09/statie-3-how-to-add-reusable-parts-of-code#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ Statie 2: How add Contact Page With Data ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/03/06/statie-2-how-to-add-contact-page-with-data/</link>
+                <description><![CDATA[ In first post about Statie you generated simple index with layout. Today we look on first semi-dynamic feature: data structures. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/03/06/statie-2-how-to-add-contact-page-with-data/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/03/06/statie-2-how-to-add-contact-page-with-data#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ PHP u nás čeká rok expanze ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/03/02/php-u-nas-ceka-rok-expanze/</link>
+                <description><![CDATA[    Za minulý rok naše php komunita vyrostla jako nikdy předtím. Přestali jsem řešit, kdo má větší framework, začali jsme sdílet online i offline a spojovat se napříč republikou. Mám z toho ohromnou radost!
+   
+   Dnes se s tebou chci podělit o to, kam jsme zatím došli a jaká velká cesta nás ještě čeká. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/03/02/php-u-nas-ceka-rok-expanze/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/03/02/php-u-nas-ceka-rok-expanze#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ Fast and Easy Way to Learn Complex Topics ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/02/22/fast-and-easy-way-to-learn-complex-topics/</link>
+                <description><![CDATA[ This little trick helps me to learn complex topic both fast and easy. It works very well during my lectures and posts. In Informatics, people tend to make issues more complex than it is necessary. It slows down the learning steep with no added value.
+
+I think it&#039;s about time to take it back to the simplest step and make learning faster (or machines will). Today I will show you how. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/02/22/fast-and-easy-way-to-learn-complex-topics/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/02/22/fast-and-easy-way-to-learn-complex-topics#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ Statie: How to run it Locally ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/02/20/statie-how-to-run-it-locally/</link>
+                <description><![CDATA[ Statie is a tool to create semi-static webpages. It allows you to host your website on Github for free. Event with own domain and https. It was created in late 2016 based on Scuplin and its major feature is simplicity.
+
+That was the &quot;pitch&quot;, now I will show you how to use it. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/02/20/statie-how-to-run-it-locally/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/02/20/statie-how-to-run-it-locally#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ Minimalistic Way to Create Your First Nette Extension ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/02/15/minimalistic-way-to-create-your-first-nette-extension/</link>
+                <description><![CDATA[ Nette extension allows you not only to create open-source packages, but also to split your application to small and logical chunks of code.
+
+Open-source extensions are more complex using many Nette\DI features, but today I will show you, how to start with one Nette\DI method and one service only. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/02/15/minimalistic-way-to-create-your-first-nette-extension/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/02/15/minimalistic-way-to-create-your-first-nette-extension#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ Drop all Service Tags in Your Nette and Symfony Applications ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/02/12/drop-all-service-tags-in-your-nette-and-symfony-applications/</link>
+                <description><![CDATA[ What is tagging for? Why we should get rid of it?
+Today I will show you, how to do it gradually without breaking the application. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/02/12/drop-all-service-tags-in-your-nette-and-symfony-applications/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Sun, 12 Feb 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/02/12/drop-all-service-tags-in-your-nette-and-symfony-applications#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ How to Decouple Monolith like a Boss with Composer Local Packages ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/02/07/how-to-decouple-monolith-like-a-boss-with-composer-local-packages/</link>
+                <description><![CDATA[ While building PHP applications that grows and grows, you often get to the situation when there is too much code. You get easily lost, duplicate and code smells and rottens. The cognitive upkeep to add a new class is bigger every day.
+
+There are 3 solutions: put code /libs subdirectories, decouple to private packages using Satis or (the best) create an open-source packages.
+
+All of them are overkill to the solution I will show you to day - composer local packages. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/02/07/how-to-decouple-monolith-like-a-boss-with-composer-local-packages/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/02/07/how-to-decouple-monolith-like-a-boss-with-composer-local-packages#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ How Monolithic Repository in Open Source saved my Laziness ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/01/31/how-monolithic-repository-in-open-source-saved-my-laziness/</link>
+                <description><![CDATA[ I&#039;ve started creating open-source about 6 years ago. Now I&#039;m maintaining over 20 repositories. I used classic standalone repositories, but with each new package I wanted to add, I realized, how much work it needs to keep everything up-to-date and consistent. So I didn&#039;t and got stuck.
+
+Fortunately, I noticed talk from Fabien about monorepo and Symfony. I said to myself: &quot;I don&#039;t know a thing about it. Let&#039;s try it out. I can always return if it sucks.&quot;
+
+I never did. Today I will show you why I see monorepo approach in open-source so awesome. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/01/31/how-monolithic-repository-in-open-source-saved-my-laziness/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/01/31/how-monolithic-repository-in-open-source-saved-my-laziness#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ Why I Switched Scrutinizer for PHPStan and You Should Too ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/01/28/why-I-switched-scrutinizer-for-phpstan-and-you-should-too/</link>
+                <description><![CDATA[ I used Scrutinizer for a few years now for code coverage and code quality. Configuration was far complex, some issues appeared and build kept failing. But I really wanted a code quality checker for my open-source projects and this was the best tool available.
+
+But last week I had an issue with simple composer install command and I have had enough. Then my attention turned to PHPStan, soon-to-be its replacement. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/01/28/why-I-switched-scrutinizer-for-phpstan-and-you-should-too/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Sat, 28 Jan 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/01/28/why-I-switched-scrutinizer-for-phpstan-and-you-should-too#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ 4 Emotional and Honest Reasons Why I Quit my Twitter ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/01/20/4-emotional-reasons-why-I-quit-my-twitter/</link>
+                <description><![CDATA[ Nowadays we tend to live busy life with all those social networks, notifications and pings. So busy, we don&#039;t have emotional space to just evaluate &quot;How do I like that?&quot;. In my life, this creates cycles, where I keep doing over and over the same thing without any progress.After few months feeling bad with Twitter, I&#039;ve finally decided to quit. Instead of technical point of view I will focus on my feelings - because that&#039;s what matters the most. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/01/20/4-emotional-reasons-why-I-quit-my-twitter/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/01/20/4-emotional-reasons-why-I-quit-my-twitter#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ 7 rad, které bych si dal před odchodem na vysokou školu ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/01/15/7-rad-ktere-bych-si-dal-pred-odchodem-na-vysokou-skolu/</link>
+                <description><![CDATA[ Už jsou to 4 roky, co jsem ukončil vysokou školu, aniž by mi za to dali titul. Během těch 4 let se mě na vysokou školu ptalo lidí, které bych spočítal na prstech jedné ruky. A na titul? Nikdo. 
+Nedávno jsem si volal s jedním středoškolákem a zjistil jsem, že vysoká škola je stále brána jako něco posvátného, důležitého a hlavně bez vhledu nikoho jiného než učitelů a rodičů. Řekl jsem si, že sepíšu svoje postřehy a rady, které bych si moc rád dal 8 let zpátky. Jestli je ti 18-19 let a zvažuješ co dál, pokračuj. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/01/15/7-rad-ktere-bych-si-dal-pred-odchodem-na-vysokou-skolu/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/01/15/7-rad-ktere-bych-si-dal-pred-odchodem-na-vysokou-skolu#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ Jak psát zajímavé inzeráty pro ajťáky ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/01/10/jak-psat-zajimave-inzeraty-pro-ajtaky/</link>
+                <description><![CDATA[ Už pár let sleduji pracovní PHP trh z pozice programátorů i z pohledu firem. S oběma stranami mám dobrý vztah. Tuším, co potřebují a co je trápí. Vidím, že se navzájem chtějí, jen komunikace trochu vázne.Původně z toho měl být feedback na inzeráty Jobs.cz a Skrz.cz. Při jejich čtení mě ale napadlo spoustu dalších tipů, o které se chci podělit. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/01/10/jak-psat-zajimave-inzeraty-pro-ajtaky/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/01/10/jak-psat-zajimave-inzeraty-pro-ajtaky#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ Why I deleted my LinkedIn account ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2017/01/05/why-I-deleted-my-linkedin-account/</link>
+                <description><![CDATA[ I used LinkedIn since 2008 when it was sending spam to all my friends. After 8 years of tuning my profile to 95 % score, reading mostly copy-pasted messages,
+checking false notifications, flirting with HR girls and hoping for up votes for my recent skills, I&#039;ve decided it is time to let it go. Why and what I&#039;m gonna do now? ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2017/01/05/why-I-deleted-my-linkedin-account/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2017/01/05/why-I-deleted-my-linkedin-account#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ How to avoid @inject thanks to Decorator feature in Nette ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2016/12/24/how-to-avoid-inject-thanks-to-decorator-feature-in-nette/</link>
+                <description><![CDATA[ I often find @inject being overused in projects I review while mentoring. They often bring less writing, but in exchange they break SOLID principles. Today I will show you solution that will keep your code both small and clean - Decorator feature in Nette. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2016/12/24/how-to-avoid-inject-thanks-to-decorator-feature-in-nette/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Sat, 24 Dec 2016 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2016/12/24/how-to-avoid-inject-thanks-to-decorator-feature-in-nette#disqus_thread</comments>
+            </item>
+
+
+
+            <item>
+                <title><![CDATA[ Jak se vypořádat s hejty v komentářích ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2016/12/09/jak-se-vyporadat-s-hejty-v-komentarich/</link>
+                <description><![CDATA[ Na to se mě včera zeptal už asi pátý člověk. Jak se vypořádat s tím, když píšu článek, Tweetuju, prostě dělám bohulibou osvětu dobrým věcem, a někomu se to nelíbí a háže na mě špínu? ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2016/12/09/jak-se-vyporadat-s-hejty-v-komentarich/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Fri, 09 Dec 2016 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2016/12/09/jak-se-vyporadat-s-hejty-v-komentarich#disqus_thread</comments>
+            </item>
+
+
+
+            <item>
+                <title><![CDATA[ Symfony komunita roste na PéHáPkaře a otevírá se všem PHP programátorům ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2016/09/26/symfony-komunita-roste-na-pehapkare-a-otevira-se-vsem-php-programatorum/</link>
+                <description><![CDATA[ Symfony komunita mění svůj název, jinak vše zůstane stejné jako dosud.
+Říkáš si proč? To se dnes dozvíš.  ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2016/09/26/symfony-komunita-roste-na-pehapkare-a-otevira-se-vsem-php-programatorum/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Mon, 26 Sep 2016 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2016/09/26/symfony-komunita-roste-na-pehapkare-a-otevira-se-vsem-php-programatorum#disqus_thread</comments>
+            </item>
+
+
+
+            <item>
+                <title><![CDATA[ How to write open-source in PHP 2: Rise value of your package with help of skeleton ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2016/09/16/how-to-write-open-source-in-php-2-enjoy-skeletons/</link>
+                <description><![CDATA[ After creating a repo, we have to fill it with something useful. Our code! Of course, but we also need some metadata files.
+What are they for? Is there some prepared code we can use? What are badges for? I will answer all these questions today.  ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2016/09/16/how-to-write-open-source-in-php-2-enjoy-skeletons/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Fri, 16 Sep 2016 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2016/09/16/how-to-write-open-source-in-php-2-enjoy-skeletons#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ How to write open-source in PHP 1: Create a repository on Github ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2016/09/09/how-to-write-open-source-in-php-1-create-a-repository/</link>
+                <description><![CDATA[ Do you have some code you want to share but you don&#039;t know exactly how? Well, writing open-source is complex process.
+In this series, I&#039;ll break it down to the smallest steps possible, so that you 
+can start your own OS project with zero-knowledge (OS = open-source).
+Ready? Let&#039;s start with creating a Github repository! ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2016/09/09/how-to-write-open-source-in-php-1-create-a-repository/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2016/09/09/how-to-write-open-source-in-php-1-create-a-repository#disqus_thread</comments>
+            </item>
+
+
+
+
+
+
+
+            <item>
+                <title><![CDATA[ Kolik lidí je potřeba k vytvoření jedné komunity? ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2016/03/03/kolik-lidi-je-potreba-k-vytvoreni-jedne-komunity/</link>
+                <description><![CDATA[ CEO České Symfony komunity. Vedoucí, evangelista, ten co dělá tu Symfony komunitu... Tak mi mnozí z vás občas říkají. Já se však pořád nemůžu zbavit pocitu, že za Symfony komunitou, tak jak ji známe v její dnešní podobě, nejsou vidět ty desítky dalších tváří, na kterých to celé stojí. Tváří lidí, kteří k ní přispěli malým či velkým dílem, kteří mě nakopli, a kteří mi pomáhají víc, než si sami vůbec uvědomují. Bez nich by tady totiž dnes nebylo vůbec nic. A proto bych vám o nich dnes rád řekl. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2016/03/03/kolik-lidi-je-potreba-k-vytvoreni-jedne-komunity/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2016/03/03/kolik-lidi-je-potreba-k-vytvoreni-jedne-komunity#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ Modular Routing in Symfony ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2016/02/25/modular-routing-in-symfony/</link>
+                <description><![CDATA[ Modular routing in Symfony is bounded to routing.yml. Adding few lines for each new module can create large mess. Can we make it bit simpler? Sure we do and I will show you how. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2016/02/25/modular-routing-in-symfony/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Thu, 25 Feb 2016 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2016/02/25/modular-routing-in-symfony#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ To nejlepší ze SymfonyConu 2015 ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2015/12/20/to-nejlepsi-ze-symfonyconu-2015/</link>
+                <description><![CDATA[ Každoročně pořádaný SymfonyCon se letos konal v Paříži. Přes všechny útoky Paříž žije dál. Možná o to víc. Důkazem toho může být i 1000 návštěvníků, kteří na akci dorazili. Čechy jsem reprezentoval spolu s Dennisem, a taky Petrem a Kubou z Lmc.eu ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2015/12/20/to-nejlepsi-ze-symfonyconu-2015/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2015/12/20/to-nejlepsi-ze-symfonyconu-2015#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ Jak si levně udělat živý web, i když nejsi ajťák ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2015/11/16/jak-si-udelat-web-i-bez-ajtaka/</link>
+                <description><![CDATA[ Znáš pojmy jako hosting, doména, HTML, CSS, FTP, šablona, Wordpress nebo Github? Máš vyhráno, dál nečti a běž se podívat na svou krásnou online vizitku. ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2015/11/16/jak-si-udelat-web-i-bez-ajtaka/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2015/11/16/jak-si-udelat-web-i-bez-ajtaka#disqus_thread</comments>
+            </item>
+
+
+            <item>
+                <title><![CDATA[ 4 žhavé novinky v Symfony 3 ]]></title>
+                <link>https://www.tomasvotruba.cz/blog/2015/11/09/4-zhave-novinky-v-symfony-3/</link>
+                <description><![CDATA[ V listopadu 2015 má kromě PHP 7 a Drupalu 8, vyjít i Symfony 3. Jaké přináší změny a novinky? ]]></description>
+                <guid isPermaLink="false">https://www.tomasvotruba.cz/blog/2015/11/09/4-zhave-novinky-v-symfony-3/</guid>
+                <dc:creator><![CDATA[ Tomas Votruba ]]></dc:creator>
+                <pubDate>Mon, 09 Nov 2015 00:00:00 +0000</pubDate>
+                <comments>https://www.tomasvotruba.cz/blog/2015/11/09/4-zhave-novinky-v-symfony-3#disqus_thread</comments>
+            </item>
+
+    </channel>
+</rss>

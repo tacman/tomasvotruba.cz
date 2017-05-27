@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Statie 4: How to Create The Simplest Blog | Tomáš Votruba</title>
+        <meta charset="utf-8">
+        <meta name="robots" content="index, follow">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Statie 4: How to Create The Simplest Blog">
+    <meta property="og:description" content="Statie is very powerful tool for creating small sites. But you will use just small part of it&#039;s features, having just micro-sites. How to get to full 100%? Build a blog.
+    
+    Today I will show you, how to put your first post.">
+    <meta property="og:url" content="https://www.tomasvotruba.cz/blog/2017/03/13/statie-4-how-to-create-the-simplest-blog">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Statie 4: How to Create The Simplest Blog">
+    <meta name="twitter:description" content="Statie is very powerful tool for creating small sites. But you will use just small part of it&#039;s features, having just micro-sites. How to get to full 100%? Build a blog.
+    
+    Today I will show you, how to put your first post.">
+
+        <link rel="alternate" type="application/rss+xml" title="Tomáš Votruba Blog RSS" href="/rss.xml">
+
+        <link href="/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <link href="/assets/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
+
+    <link href="/assets/prism/prism.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+<nav>
+    <div class="container">
+        <ul class="hidden-xs">
+            <li class="logo">
+                <a href="/">Tomáš Votruba</a>
+            </li>
+            <li>
+                <a href="/skoleni/">Školím a mentoruji</a>
+            </li>
+            <li>
+                <a href="/reference/">Spokojení klienti</a>
+            </li>
+            <li class="active">
+                <a href="/blog/">Blog</a>
+            </li>
+            <li>
+                <a href="/cenik/">Ceník</a>
+            </li>
+            <li>
+                <a href="/kontakt/">Kontakt</a>
+            </li>
+        </ul>
+
+        <div id="mobile-menu" class="row text-center hidden-md hidden-sm hidden-lg">
+            <a href="/" class="col-xs-3">
+                <em class="fa fa-home"></em>
+                <br>
+                Začni
+            </a>
+            <a href="/skoleni/" class="col-xs-3">
+                <em class="fa fa-thumbs-up"></em>
+                <br>
+                Školím
+            </a>
+            <a href="/blog/" class="col-xs-3 active">
+                <em class="fa fa-book"></em>
+                <br>
+                Píšu blog
+            </a>
+            <a href="/kontakt/" class="col-xs-3">
+                <em class="fa fa-phone"></em>
+                <br>
+                Kontakt
+            </a>
+        </div>
+    </div>
+</nav>
+
+        <div class="mainContent">
+    <div class="container" id="post">
+        <h1>Statie 4: How to Create The Simplest Blog</h1>
+
+<ul class="list-inline">
+    <li>
+        <em class="fa fa-clock-o fa-fw"></em>
+        <strong>2 min</strong>
+    </li>
+
+    <li>
+        <em class="fa fa-calendar fa-fw"></em>
+        <time datetime="2017-03-Mon">
+                13. 3.
+        </time>
+    </li>
+
+    <li>
+        <em class="fa fa-fw fa-comments"></em>
+        <a href="https://www.tomasvotruba.cz/blog/2017/03/13/statie-4-how-to-create-the-simplest-blog/#disqus_thread">X</a>
+        comments
+    </li>
+
+    <li>
+        <em class="fa fa-fw fa-pencil"></em>
+
+        <a href="https://github.com/TomasVotruba/tomasvotruba.cz/edit/master/source/_posts/2017/2017-03-13-statie-4-how-to-create-the-simplest-blog.md">
+            Edit this Post
+        </a>
+    </li>
+</ul>
+
+
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Statie is very powerful tool for creating small sites. But you will use just small part of it's features, having just micro-sites. How to get to full 100%? <strong>Build a blog</strong>.
+    <br><br>
+    Today I will show you, <strong>how to put your first post</strong>.
+            </div>
+        </div>
+
+        
+
+<h2 id="create-a-blog-page"><a class="anchor" href="#create-a-blog-page" aria-hidden="true"><span class="anchor-icon">#</span></a>Create a Blog Page</h2>
+<p>This might be the simplest page to show all your posts:</p>
+<pre><code class="language-html">&lt;!-- /source/blog.latte --&gt;
+
+---
+layout: default
+---
+
+❴block content❵
+    &lt;h2&gt;Shouts Too Loud from My Hearth&lt;/h2&gt;
+
+    ❴foreach $posts as $post❵
+        &lt;a href="/❴$post['relativeUrl']❵/"&gt;
+            &lt;h3&gt;❴$post['title']❵&lt;/h3&gt;
+        &lt;/a&gt;
+    ❴/foreach❵
+❴/block❵</code></pre>
+<h3 id="you-already-see"><a class="anchor" href="#you-already-see" aria-hidden="true"><span class="anchor-icon">#</span></a>You already see</h3>
+<ul>
+<li>that all posts are in stored in <code>$posts</code> variable</li>
+<li>that every post has <code>relativeUrl</code></li>
+<li>that every post should have a <code>title</code> (optional, but recommended)</li>
+</ul>
+<h2 id="how-does-it-work"><a class="anchor" href="#how-does-it-work" aria-hidden="true"><span class="anchor-icon">#</span></a>How Does it Work?</h2>
+<p>Statie will do 3 steps:</p>
+<ol>
+<li><strong>Scans <code>/source/_posts</code> for any files</strong>
+<ul>
+<li>those files have to be in <code>YYYY-MM-DD-url-title.*</code> format</li>
+<li>that's how Statie can determine the date</li>
+</ul></li>
+<li><strong>Converts Markdown and Latte syntax in them to HTML</strong></li>
+<li>Stores them to <code>$posts</code> variable.</li>
+</ol>
+<h2 id="how-does-a-post-content-look-like"><a class="anchor" href="#how-does-a-post-content-look-like" aria-hidden="true"><span class="anchor-icon">#</span></a>How does a Post Content Look Like?</h2>
+<pre><code class="language-html">&lt;!-- source/_posts/2017-03-05-my-last-post.md --&gt;
+
+---
+layout: "post"
+title: "This my Last Post, Ever!"
+---
+
+This is my last post to all</code></pre>
+<h3 id="how-to-show-post-in-own-layout"><a class="anchor" href="#how-to-show-post-in-own-layout" aria-hidden="true"><span class="anchor-icon">#</span></a>How to Show Post in Own Layout</h3>
+<p>As you can see, post has <code>layout: post</code>. It means it's displayed in <code>_layouts/post.latte</code>:</p>
+<pre><code class="language-twig">&lt;!-- /source/_layouts/post.latte --&gt;
+
+❴extends "default"❵
+
+❴block content_wrapper❵
+    &lt;h2&gt;❴$post['title']❵&lt;/h2&gt;
+
+    ❴$post['content']|noescape❵
+❴/block❵</code></pre>
+<p>We have to also modify <code>default.latte, to include our post layout and replacte</code>❴block content}❴/block❵` with.</p>
+<pre><code class="language-twig">&lt;!-- /source/_layouts/default.latte --&gt;
+...
+
+❴block content_wrapper❵
+    ❴block content}❴/block❵
+❴/block❵
+
+...</code></pre>
+<p>That should be it.</p>
+<p>Save file, <a href="http://localhost:8000/blog">look on the blog page</a> and see:</p>
+<div class="text-center">
+    <img src="/../../../../assets/images/posts/2017/statie-4/statie-blog.png" class="thumbnail"></div>
+<p>When you click a post title:</p>
+<div class="text-center">
+    <img src="/../../../../assets/images/posts/2017/statie-4/statie-post.png" class="thumbnail"></div>
+<h3 id="protip-change-post-url"><a class="anchor" href="#protip-change-post-url" aria-hidden="true"><span class="anchor-icon">#</span></a>ProTip: Change Post Url</h3>
+<p>You see the url for the post is:</p>
+<pre><code>blog/2017/03/05/my-last-post/</code></pre>
+<p>or</p>
+<pre><code>blog/Year/Month/Day/FileSlug</code></pre>
+<p>This <strong>can be changed by configuration</strong>. Create <code>config.neon</code> and override default values:</p>
+<pre><code class="language-yaml">&lt;!-- source/_config/config.neon --&gt;
+
+configuration:
+    postRoute: blog/:year/:month/:day/:title</code></pre>
+<p>Where <code>:year</code>, <code>:month</code>, <code>:day</code> and <code>:title</code> are all variables.</p>
+<p>For example:</p>
+<pre><code class="language-yaml">configuration:
+    postRoute: my-blog/:year/:title</code></pre>
+<p>Would produce url:</p>
+<pre><code>my-blog/2017/my-last-post/</code></pre>
+<p>Got it? I know you do! <strong>You are smart.</strong></p>
+<p>In one of the next posts, I will show you some cool <code>PostFile</code> object features.</p>
+<h2 id="now-you-know"><a class="anchor" href="#now-you-know" aria-hidden="true"><span class="anchor-icon">#</span></a>Now You Know</h2>
+<ul>
+<li><strong>That all posts are placed in <code>/source/_posts</code> directory and in <code>$posts</code> variable</strong>.</li>
+<li>That post has to be in <strong>named as <code>YYYY-MM-DD-title.md</code> format</strong></li>
+<li>That you can change the post generated url in <code>source/config/_config.neon</code> in <code>postRoute</code>.</li>
+</ul>
+<p>Happy coding!</p>
+
+        <h2>I care about your opinion</h2>
+
+<div id="disqus_thread"></div>
+
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.language = "en"
+    };
+
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//' + "itsworthsharing" + '.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+    </div>
+        </div>
+
+    <script src="/assets/prism/prism.js"></script>
+    <script id="dsq-count-scr" src="https://itsworthsharing.disqus.com/count.js" async defer></script>
+
+<script>
+    ga=function(){ ga.q.push(arguments) };
+    ga.q=[];
+    ga.l=+new Date;
+    ga('create', "UA-46082345-1", 'auto');
+    ga('send','pageview');
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+<script>
+    !function(f,b,e,v,n,t,s){ if(f.fbq)return;n=f.fbq=function(){ n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', "201338863559186");
+    fbq('track', 'PageView');
+</script>
+    </body>
+</html>
